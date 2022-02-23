@@ -4,7 +4,7 @@
     
 }
 .cont1{
-    height: 1200px;
+    height: 1400px;
     width: 100%;
     background-color: white;
     display: flex;
@@ -59,6 +59,7 @@ nav a{
 main{
     height: 1100px;
     width: 80%;
+    
 }
 .main1{
     height: 100px;
@@ -283,4 +284,44 @@ main{
 .mc button:hover{
     background-color: maroon;
     color: white;
+}
+footer{
+    height: 200px;
+    width: 80%;
+    background-color: grey;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.foot1{
+    height: 150px;
+    width: 30%;
+    /* background-color: green; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.foot2{
+    width: 30%;
+    height: 75px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.foot1 p{
+    text-align: justify;
+}
+.foot2 form input{
+    height: 40px;
+    border: 1px;
+    border-radius: 5px;
+
+}
+.foot2 form button{
+    height: 40px;
+    width: 80px;
+    color: white;
+    border: 1px;
+    border-radius: 10px;
+    background-color: maroon;
 }
