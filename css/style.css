@@ -1,5 +1,10 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    
+}
 .cont1{
-    height: 600px;
+    height: 1200px;
     width: 100%;
     background-color: white;
     display: flex;
@@ -31,9 +36,10 @@ header{
 .info{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-around;
+
     height: 100px;
-    width: 50%;
+    width: 60%;
 }
 
 nav{
@@ -51,7 +57,7 @@ nav a{
     color: maroon;
 }
 main{
-    height: 400px;
+    height: 1100px;
     width: 80%;
 }
 .main1{
@@ -76,4 +82,190 @@ main{
 }
 .buttons button:hover{
     background-color: maroon;
+}
+.main2{
+    height: 350px;
+    width: 100%;
+    background-color: rgb(230, 221, 221);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.project{
+    height: 200px;
+    width: 30%;
+    background-color: brown;
+    background-image: url("/images/serve2.webp");
+    background-size: cover;
+    position: relative;
+    border: 1px;
+    border-radius: 20px;
+    
+}
+.project1{
+    height: 200px;
+    width: 30%;
+    background-color: brown;
+    background-image: url("/images/muvkin.jpg");
+    background-size: cover;
+    position: relative;
+    border: 1px;
+    border-radius: 20px;
+    opacity: 1;
+    
+}
+.project2{
+    height: 200px;
+    width: 30%;
+    background-color: brown;
+    background-image: url("/images/portfolio.jpeg");
+    background-size: cover;
+    position: relative;
+    border: 1px;
+    border-radius: 20px;
+    opacity: 1;
+}
+.project2 h1{
+    position: absolute;
+    top: 40px;
+    left: 100px;
+    color: maroon;
+}
+.project h4{
+    color: rgb(243, 142, 142);
+    position: absolute;
+    right: 0;
+    top: 30px;
+}
+.project1 h2{
+    color: maroon;
+    position: absolute;
+    left: 10px;
+    top: 30px;
+    opacity: 1;
+
+}
+.project p{
+    color: black;
+    position: absolute;
+    right: 5px;
+    top: 55px;
+    font-weight: bolder;
+}
+.project1 p{
+    color: black;
+    position: absolute;
+    left: 5px;
+    top: 55px;
+    font-weight: bolder;
+    
+}
+.pupose{
+    height: 100px;
+    width: 30%;
+    border :1px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+.pupose h4{
+    color: maroon;
+}
+.pupose p{
+    text-align: center;
+}
+.main3{
+    height: 650px;
+    width: 100%;
+    background-image: url("/images/discusion.jpg");
+    background-size: cover;
+
+}
+.main3Head{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    background-color: red;
+}
+.main3Head h1{
+    color: maroon;
+
+}
+.main3Head p{
+    font-size: 20px;
+}
+.main3Cont{
+    height: 550px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: yellow;
+}
+.mc{
+    height: 350px;
+    width: 25%;
+    background-color: lightblue;
+    border: 1px solid lightblue;
+    border-radius: 10px;
+    box-shadow: -5px 5px 2px grey;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.mc1{
+    height: 400px;
+    width: 25%;
+    background-color: lightblue;
+    border: 1px solid lightblue;
+    border-radius: 10px;
+    box-shadow: -5px 5px 2px grey;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.mc2{
+    height: 350px;
+    width: 25%;
+    background-color: lightblue;
+    border: 1px solid lightblue;
+    border-radius: 10px;
+    box-shadow: -5px 5px 2px grey;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.app{
+    height: 60%;
+    width: 90%;
+    background-image: url("/images/apps.jpg");
+    background-size: cover;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+.app1{
+    height: 45%;
+    width: 99%;
+    background-image: url("/images/webpage.jpeg");
+    background-position: center;
+    background-size: contain;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+.app1 p{
+    text-align: center;
+}
+.mc button{
+    height: 30px;
+    border: 1px;
+    border-radius: 5px;
 }
