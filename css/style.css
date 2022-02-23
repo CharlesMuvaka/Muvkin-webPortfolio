@@ -27,7 +27,7 @@ header{
 .img1{
     width: 25%;
     height: 100px;
-    background-image: url("/images/IMG_0192.jpg");
+    background-image: url("./images/IMG_0192.jpg");
     background-size: cover;
     background-position: center;
     border: 1px;
@@ -97,7 +97,7 @@ main{
     height: 200px;
     width: 30%;
     
-    background-image: url("/images/serve2.webp");
+    background-image: url("./images/serve2.webp");
     background-size: cover;
     position: relative;
     border: 1px;
@@ -108,7 +108,7 @@ main{
     height: 200px;
     width: 30%;
     
-    background-image: url("/images/muvkin.jpg");
+    background-image: url("./images/muvkin.jpg");
     background-size: cover;
     position: relative;
     border: 1px;
@@ -120,7 +120,7 @@ main{
     height: 200px;
     width: 30%;
     
-    background-image: url("/images/portfolio.jpeg");
+    background-image: url("./images/portfolio.jpeg");
     background-size: cover;
     position: relative;
     border: 1px;
@@ -250,7 +250,7 @@ main{
 .app{
     height: 60%;
     width: 90%;
-    background-image: url("/images/apps.jpg");
+    background-image: url("./images/apps.jpg");
     background-size: cover;
     border: 1px solid grey;
     border-radius: 5px;
@@ -258,7 +258,7 @@ main{
 .app1{
     height: 45%;
     width: 99%;
-    background-image: url("/images/webpage.jpeg");
+    background-image: url("./images/webpage.jpeg");
     background-position: center;
     background-size: contain;
     border: 1px solid grey;
@@ -275,7 +275,7 @@ main{
 .app2{
     height: 45%;
     width: 99%;
-    background-image: url("/images/lec.jpeg");
+    background-image: url("./images/lec.jpeg");
     background-position: center;
     background-size: contain;
     border: 1px solid grey;
