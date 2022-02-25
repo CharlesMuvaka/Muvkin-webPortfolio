@@ -85,7 +85,7 @@ main{
     background-color: maroon;
 }
 .main2{
-    height: 350px;
+    height: 400px;
     width: 100%;
     background-color: rgb(230, 221, 221);
     display: flex;
@@ -96,7 +96,7 @@ main{
 .project{
     height: 200px;
     width: 30%;
-    
+    box-shadow: 7px 7px 5px grey;
     background-image: url("../images/serve2.webp");
     background-size: cover;
     position: relative;
@@ -104,10 +104,11 @@ main{
     border-radius: 20px;
     
 }
+
 .project1{
     height: 200px;
     width: 30%;
-    
+    box-shadow: 7px 7px 5px grey;
     background-image: url("../images/muvkin.jpg");
     background-size: cover;
     position: relative;
@@ -119,7 +120,7 @@ main{
 .project2{
     height: 200px;
     width: 30%;
-    
+    box-shadow: -7px 7px 5px grey;
     background-image: url("../images/portfolio.jpeg");
     background-size: cover;
     position: relative;
@@ -163,18 +164,33 @@ main{
     
 }
 .pupose{
-    height: 100px;
-    width: 30%;
+    height: 150px;
+    width: 32%;
     border :1px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
+   
 
 }
-.pupose:hover{
-    background-color: blue;
+.pupose a{
+    text-decoration: none;
+    padding: 10px;
+    background-color: maroon;
+    color: white;
+    border-radius: 5px;
 }
+.pupose a:hover{
+    background-color: grey;
+    color: white;
+    padding: 10px;
+    box-shadow: 7px 7px 2px black;
+}
+.pupose p:last-child{
+    font-size: 15px;
+}
+
 .pupose h4{
     color: maroon;
 }
